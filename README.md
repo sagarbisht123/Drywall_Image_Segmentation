@@ -148,6 +148,9 @@ In **Notebook 1, Cell 2**, set your own Roboflow API key:
 ```python
 ROBOFLOW_API_KEY = "your_api_key_here"
 ```
+## Weights
+Download from HuggingFace: https://huggingface.co/S-4-G-4-R/clipseg-drywall-qa
+
 
 Get a free key at [roboflow.com](https://roboflow.com).
 
