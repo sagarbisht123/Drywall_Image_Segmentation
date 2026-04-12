@@ -1,7 +1,12 @@
 # 🧱 Prompted Segmentation for Drywall QA
 
 Fine-tuning **CLIPSeg** for text-conditioned binary segmentation of drywall defects — given an image and a natural-language prompt, the model produces a binary mask for either cracks or taping areas.
+---
+## Model Architecture
 
+![CLIPSeg Architecture](architecture.png)
+
+The model uses a fine-tuned **CLIPSeg** (based on CLIP ViT-B/16) with a lightweight segmentation head. It takes a drywall image and a text prompt to output a binary segmentation mask.
 ---
 
 ## 🎯 Goal
@@ -11,6 +16,7 @@ Train a prompted segmentation model that accepts an image + text prompt and outp
 - `"segment taping area"` — drywall joint/tape regions (Dataset 1)
 
 ---
+
 
 ## 📁 Repository Structure
 
